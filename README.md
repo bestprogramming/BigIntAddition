@@ -1,5 +1,5 @@
 # BigInt Addition
-BigInt Addition provides an example for multiplying two 64-bit arrays.
+BigInt Addition provides an example for adding two 64-bit arrays.
 If LeftLength is greater than RightLength, AddByGreaterLength.asm is executed, if equal, AddByEqualLength.asm is executed.
 AddByEqualLength requires Length additions. 
 If there is a carry value at the end of the addition, the final value of result is 1.
