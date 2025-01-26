@@ -19,8 +19,9 @@ do_while:
 	lea rdx, [rdx + 8]
 	lea r8, [r8 + 8]
 	lea r9, [r9 + 8]
-
-	loopnz do_while
+	
+	dec ecx
+	jnz do_while
 ;do_while_end
 
 	jnc noCarry
